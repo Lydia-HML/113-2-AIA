@@ -3,6 +3,7 @@ from config import NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD
 
 #https://github.com/Lydia-HML/llm_with_neo4j_for_movie/blob/main/dataset/movie.csv
 
+
 def setup_graph():
     graph = Neo4jGraph(
         url=NEO4J_URI,
